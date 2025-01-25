@@ -77,10 +77,10 @@ function selectAnswer(e){
     const selectedBtn =e.target;
     const iscorrect = selectedBtn.dataset.correct=="true";
     if(iscorrect){
-        selectedBtn.classList.add("Correct");
+        selectedBtn.classList.add("correct");
     }
     else{
-        selectedBtn.classList.add("Incorrect");
+        selectedBtn.classList.add("incorrect");
     }
     Array.from(answerButton.children).forEach(button=>{
         if(button.dataset.correct=="true"){
@@ -91,4 +91,6 @@ function selectAnswer(e){
     nextButton.style.display="block";
 
 }
+
+
 startQuiz()
