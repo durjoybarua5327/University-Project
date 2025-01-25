@@ -36,34 +36,53 @@ body {
     border-bottom: 1px solid #eee3e3;
     padding-bottom: 20px;
 }
-/*
 .subject-selection {
+    display: block;
     text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.subject-selection h1 {
+    
+    font-size: 28px;
+    font-weight: 600;
+    color: #4a90e2;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(0, 102, 255, 0.6);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
 }
 
 .subject-btn {
-    background: rgba(10, 10, 50, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: white;
+    background: rgba(25, 25, 112, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color: #e6f7ff;
+    font-size: 16px;
     font-weight: 500;
     width: 100%;
-    border: 1px solid white;
-    padding: 10px;
-    margin: 10px 0;
-    text-align: center;
-    border-radius: 20px;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 12px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .subject-btn:hover {
-    background-color: rgb(42, 78, 196);
-    color: #fff;
+    background-color: rgba(42, 78, 196, 0.7);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 79, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.6);
 }
-*/
+
 .quiz {
 
-    display: block;
+    display: none;
 }
 
 .quiz h2 {
@@ -74,7 +93,7 @@ body {
 }
 
 .btn {
-    background: rgba(10, 10, 50, 0.2);
+    background: rgba(25, 25, 112, 0.3);
     color: rgb(246, 246, 246);
     font-weight: 500;
     width: 100%;

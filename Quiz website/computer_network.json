@@ -1,0 +1,83 @@
+[
+    {
+        "question": "What is the main function of a router in a computer network?",
+        "answers": [
+            { "text": "Forward data packets between networks", "correct": true },
+            { "text": "Store data packets temporarily", "correct": false },
+            { "text": "Create network connections", "correct": false },
+            { "text": "Secure data transmission", "correct": false }
+        ]
+    },
+    {
+        "question": "Which protocol is used for secure communication over the internet?",
+        "answers": [
+            { "text": "HTTP", "correct": false },
+            { "text": "HTTPS", "correct": true },
+            { "text": "FTP", "correct": false },
+            { "text": "SMTP", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the purpose of the Domain Name System (DNS)?",
+        "answers": [
+            { "text": "Translate domain names into IP addresses", "correct": true },
+            { "text": "Send emails over the internet", "correct": false },
+            { "text": "Secure connections between devices", "correct": false },
+            { "text": "Monitor network traffic", "correct": false }
+        ]
+    },
+    {
+        "question": "Which of the following is an example of a network topology?",
+        "answers": [
+            { "text": "Star", "correct": true },
+            { "text": "Router", "correct": false },
+            { "text": "Firewall", "correct": false },
+            { "text": "IP Address", "correct": false }
+        ]
+    },
+    {
+        "question": "What does the term 'IP address' stand for in a computer network?",
+        "answers": [
+            { "text": "Internet Protocol address", "correct": true },
+            { "text": "International Protocol address", "correct": false },
+            { "text": "Internal Process address", "correct": false },
+            { "text": "Internet Provision address", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the function of the Transport Layer in the OSI model?",
+        "answers": [
+            { "text": "End-to-end communication and error handling", "correct": true },
+            { "text": "Data encoding and decoding", "correct": false },
+            { "text": "Routing data between networks", "correct": false },
+            { "text": "Providing network security", "correct": false }
+        ]
+    },
+    {
+        "question": "Which of the following devices is used to connect two different networks?",
+        "answers": [
+            { "text": "Hub", "correct": false },
+            { "text": "Switch", "correct": false },
+            { "text": "Router", "correct": true },
+            { "text": "Bridge", "correct": false }
+        ]
+    },
+    {
+        "question": "Which protocol is used to transfer files between computers in a network?",
+        "answers": [
+            { "text": "FTP", "correct": true },
+            { "text": "HTTP", "correct": false },
+            { "text": "SMTP", "correct": false },
+            { "text": "POP3", "correct": false }
+        ]
+    },
+    {
+        "question": "What does the term 'latency' refer to in computer networking?",
+        "answers": [
+            { "text": "The speed of data transfer", "correct": false },
+            { "text": "The delay in data transmission", "correct": true },
+            { "text": "The amount of data transmitted", "correct": false },
+            { "text": "The capacity of the network", "correct": false }
+        ]
+    }
+]
