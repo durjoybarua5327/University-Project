@@ -137,11 +137,53 @@ body {
 .incorrect{
     background-color: rgba(222, 41, 41, 0.4);
 }
+@media only screen and (max-width: 768px) {
+    body {
+        overflow: auto; /* Allow scrolling if content overflows */
+    }
 
+    .app {
+        width: 90%; /* Slightly wider for mobile */
+        margin: 50px auto; /* Center vertically and horizontally */
+        padding: 20px; /* Reduce padding */
+    }
+
+    .app h1 {
+        font-size: 22px; /* Reduce font size */
+        padding-bottom: 15px; /* Reduce padding */
+    }
+
+    .subject-selection h1 {
+        font-size: 24px; /* Reduce font size */
+        margin-bottom: 20px; /* Reduce margin */
+    }
+
+    .subject-btn {
+        font-size: 14px; /* Reduce font size */
+        padding: 12px 15px; /* Reduce padding */
+    }
+
+    .quiz h2 {
+        font-size: 16px; /* Reduce font size */
+    }
+
+    .btn {
+        font-size: 14px; /* Reduce font size */
+        padding: 8px; /* Reduce padding */
+    }
+
+    #next-btn {
+        width: 120px; /* Reduce button width */
+        padding: 8px; /* Reduce padding */
+        font-size: 14px; /* Reduce font size */
+    }
+}
+
+/* Responsive Design for Very Small Screens (e.g., phones in portrait mode) */
 @media only screen and (max-width: 480px) {
     .app {
-        width: 100%; /* Full width for very small screens */
-        margin: 20px auto 0; /* Further reduce top margin */
+        width: 95%; /* Wider for very small screens */
+        margin: 20px auto; /* Center vertically and horizontally */
         padding: 15px; /* Further reduce padding */
     }
 
