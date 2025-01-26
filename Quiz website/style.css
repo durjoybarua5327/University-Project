@@ -137,3 +137,77 @@ body {
 .incorrect{
     background-color: rgba(222, 41, 41, 0.4);
 }
+
+
+@media (max-width: 768px) {
+    .app {
+        margin: 50px auto;
+        padding: 20px;
+    }
+
+    .app h1 {
+        font-size: 24px;
+    }
+
+    .subject-selection h1 {
+        font-size: 24px;
+    }
+
+    .subject-btn {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    #next-btn {
+        width: 130px;
+        padding: 8px;
+    }
+
+    .quiz h2 {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .app {
+        width: 95%; 
+        margin: 50px auto 0;
+        padding: 20px; /* Reduce padding */
+    }
+
+    .app h1 {
+        font-size: 22px; /* Reduce font size */
+        padding-bottom: 15px; /* Reduce padding */
+    }
+
+    .subject-selection h1 {
+        font-size: 24px; /* Reduce font size */
+        margin-bottom: 20px; /* Reduce margin */
+    }
+
+    .subject-btn {
+        font-size: 14px; /* Reduce font size */
+        padding: 12px 15px; /* Reduce padding */
+    }
+
+    .quiz h2 {
+        font-size: 16px; /* Reduce font size */
+    }
+
+    .btn {
+        font-size: 14px; /* Reduce font size */
+        padding: 8px; /* Reduce padding */
+    }
+
+    #next-btn {
+        width: 120px; /* Reduce button width */
+        padding: 8px; /* Reduce padding */
+        font-size: 14px; /* Reduce font size */
+    }
+}

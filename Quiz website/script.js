@@ -1,4 +1,4 @@
-const questionsBySubject = {
+const questionsBySubject ={
   "Computer Network": [
     {
       question: "What is the main function of a router in a computer network?",
